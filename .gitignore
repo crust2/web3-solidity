@@ -1,0 +1,15 @@
+# Build folders
+artifacts/
+cache/
+out/
+broadcast/
+.states/
+
+# Environment files
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+*.log

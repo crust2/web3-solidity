@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20; //solidity version
+pragma solidity ^0.8.24; //solidity version
 
 contract mystorage {
     uint256 public  favno1; // initialize with 0
