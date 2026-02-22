@@ -12,7 +12,7 @@ contract mystorage {
     mapping(string => uint256) public nametofavno;
     User[] public users; //[] , it is a dynamic array
     //Users public one = User(7,"one"); //User public one = User({favno: 7,name:"one"});
-    function store(uint256 _favNo) public {
+    function store(uint256 _favNo) public virtual {
         favno1 = _favNo;
         //favno1 = favno1*9; //uses more gas
         
