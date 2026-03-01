@@ -1,44 +1,43 @@
-# Web3 Solidity Journey 
-
-This repository contains my Solidity smart contract development progress while following the Solidity Smart Contract Developer track.
-
-## What I'm Learning
-- Solidity fundamentals
-- Smart contract architecture
-- Contract deployment on testnet
-- Contract-to-contract interactions
-- Foundry (testing & scripting)
-
----
-
-## 📂 Project Structure
-
-contracts/
-- mystorage.sol
-
-
----
-
-##  Deployments
-Contracts have been deployed to Ethereum testnet for learning purposes.
+A structured repository documenting my progress in Solidity smart contract development, 
+focused on writing secure and production-ready Ethereum contracts.
 
 ---
 
 ##  Tech Stack
-- Solidity ^0.8.x
-- Remix IDE
-- Git & GitHub
-- (Upcoming) Foundry for testing
+
+- Solidity ^0.8.x  
+- Chainlink Price Feeds  
+- Foundry (learning & testing)  
+- Git & GitHub  
 
 ---
 
-##  Goal
-To become a professional Solidity smart contract developer capable of building production-ready decentralized applications.
+##  Contracts
+
+- **SimpleStorage.sol** – Basic storage patterns  
+- **StorageFactory.sol** – Contract deployment & interaction  
+- **FundMe.sol** – ETH funding with minimum USD validation  
+- **PriceConverter.sol** – Chainlink price feed integration  
+- Additional practice contracts for learning concepts  
+
+---
+
+##  Focus
+
+- Smart contract architecture  
+- Contract-to-contract interaction  
+- Secure fund handling  
+- Gas optimization basics  
+- Testnet deployments  
 
 ---
 
 ##  Status
-Currently progressing through:
-Solidity Smart Contract Development → Storage Factory
 
-More contracts and testing modules coming soon.
+###  Completed
+- Simple Storage  
+- Storage Factory  
+- Fund Me  
+
+###  In Progress
+- Advanced testing & scripting with Foundry  
